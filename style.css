@@ -28,7 +28,7 @@
     }
 table {
     display: table;
-    border-collapse: separate;
+    border-collapse: collapse;
     box-sizing: border-box;
     text-indent: initial;
     unicode-bidi: isolate;
@@ -87,17 +87,23 @@ body {
 
 .card {
     margin: 35px;
-    background-color: black ;
-    width: 370px;
-    height: 370px;
+    background-color: rgb(31, 114, 238);
+    width: 350px;
+    height: 450px;
     border-radius: 10px;
     box-shadow: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
     
 }
 
 .fotoaspas {
-    width: 350px;
-    border-radius: 100%;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+
     
 }
 
